@@ -1,0 +1,102 @@
+.Our_latest_news{
+    text-align: center !important;
+    font-size: 54px !important;
+    color: #38373c !important;
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+.latestNews_main{
+padding-top: 120px !important;
+padding-bottom: 50px !important;
+
+}
+.Latest_header{
+    margin-left: 250px !important;
+    margin-right: 250px !important;
+}
+.paragraph_Head{
+    font-size: 24px !important;
+    color: black !important;
+    letter-spacing: 0.5px !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+}
+.paragraph_Head:hover{
+    color: #09aeb8 !important;
+}
+.passages{
+    font-size: 16px !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    color: #38373c !important;
+    letter-spacing: 0.5px !important;
+
+}
+.Comments{
+    color: #09aeb8 !important;
+    font-size: 16px !important;
+}
+.Comments:hover{
+    color: black !important;
+}
+
+
+.Horizontal_title{
+    display: flex !important;
+}
+.Submit{
+    width: 190px !important;
+    height: 50px !important;
+    background-color: #ffd763 !important;
+    border-width: 0px !important;
+}
+.Submit:hover{
+    background-color: #09aeb8 !important;
+    color: white !important;
+}
+.Quote_head{
+    font-size: 18px !important;
+    letter-spacing: 0.5px !important;
+    font-family: sans-serif !important;
+
+}
+.col_padding{
+    padding: 70px !important
+}
+.para_header{
+    font-size: 24px !important;
+    letter-spacing: 0.9px !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+
+}
+.Googlemaping{
+    padding-top: 85px !important;
+}
+.Selected_services{
+    height: 55px !important;
+    padding-top: 10px !important;
+    letter-spacing: 0.5px !important;
+}
+.horizontal_data{
+    display: flex !important;
+}
+.horizontal_fields{
+    width: 400px !important;
+    margin-right: 20px !important;
+}
+.horizontal_fields_email{
+    width: 400px !important;
+}
+
+.select_val{
+    width: 100% !important;
+    height: 80px !important;
+    border-width: 0px !important;
+}
+.select_val > div{
+    width: 100% !important;
+    height: 50px !important;
+    /* padding: 2px !important; */
+    letter-spacing: 0.5px !important;
+    align-items: center !important;
+    letter-spacing: 0.5px !important;
+    color: #38373c !important;
+}
+

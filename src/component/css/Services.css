@@ -1,0 +1,82 @@
+.Services_Box {
+    padding-top: 120px !important;
+}
+
+.Services_Head {
+    text-align: center !important;
+    font-size: 54px !important;
+    color: #38373c !important;
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.Service_Data {
+    margin-left: 250px !important;
+    margin-right: 250px !important;
+}
+
+.Cooling_Service {
+    padding: 30px !important;
+    margin-left: 28px !important;
+}
+
+.paragraph_Title {
+    font-size: 16px !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    color: #38373c !important;
+    letter-spacing: 0.5px !important;
+}
+
+.button_learn {
+    width: 100% !important;
+    height: 50px !important ;
+    background-color: #ffd763 !important;
+}
+  
+.buttonic {
+    padding-top: 1px !important;
+}
+
+.overtimes {
+    padding: 120px 0px !important
+}
+
+.overtime_days {
+    padding-top: 85px !important;
+    background-color: #ffd763 !important;
+    padding-bottom: 85px !important;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+.snow_img{
+    width: 25px !important;
+    height: 25px !important;
+
+}
+/* .services_main:hover{
+    background-color: #38373c;
+    color: white;
+} */
+
+
+.quote_free {
+    width: 178px !important;
+    height: 43px !important;
+    background-color: #38373c !important;
+    color: white !important;
+    border-width: 0px !important;
+}
+.quote_free:hover{
+    background-color: #09aeb8 !important; 
+    color: white !important;
+}
+
+.charges{
+    padding-left: 86px !important;
+    font-size: 40px !important;
+}
+
+.overtime_days2{
+    padding-top: 105px !important;
+    background-color: #ffd763 !important;
+    padding-bottom: 105px !important;
+
+}

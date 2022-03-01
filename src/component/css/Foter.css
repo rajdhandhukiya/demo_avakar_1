@@ -1,0 +1,215 @@
+.Footer_main{
+    background-color: #38373c !important;
+}
+.Footer_header{
+    display: flex !important;
+    align-items: baseline !important;
+    justify-content: center !important;
+    border-right: 1px solid white !important;
+}
+.row_main{
+    border-bottom: #a9a7ad !important;
+}
+.col_padding{
+    padding: 50px !important ;
+}
+.Address{ 
+    color: white !important;
+    padding-left: 5px !important;
+}
+
+.Surat{
+ color: #a9a7ad !important;  
+ font-size: 15px !important;
+ letter-spacing: 0.5px !important;
+ padding-left: 8px !important;
+ padding-right: 8px !important; 
+ font-family:sans-serif  !important ;
+}
+
+.Footer_header_Second{
+    display: flex !important;
+    align-items: baseline !important;
+    justify-content:center !important;
+    border-right: 1px solid white !important;
+}
+
+.Email{
+    color: white !important;
+    padding-left: 10px !important;
+}
+
+.Email_address{
+    color: #a9a7ad !important ;  
+ font-size: 15px !important;
+ letter-spacing: 0.5px !important;
+ padding-left: 8px !important;
+ padding-right: 8px !important;
+ font-family:sans-serif  !important ;
+}
+
+.Footer_header_third{
+    display: flex !important;
+    align-items: baseline !important;
+   
+    border-right: 1px solid white !important;
+}
+.Open_Hours{
+    color: white;
+    padding-left: 10px !important;
+}
+
+.Open_Time{
+    color: #a9a7ad !important;  
+    font-size: 15px !important;
+    letter-spacing: 0.5px !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    font-family:sans-serif  !important ;
+}
+
+.About_Title{
+    font-size: 18px !important;
+    text-align: left !important;
+    letter-spacing: 0.5px !important;
+    color: white !important;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+
+.About_Paragraph{
+    color: #b5b4b9 !important;
+    font-weight: 400 !important;
+    margin-bottom: 37px !important;
+    padding-right: 60px !important;
+    text-align: left !important;
+    font-size: 16px !important;
+    letter-spacing: 0.5px !important;
+}
+
+.quote{
+    text-align: left !important;
+    color: white !important;
+    font-size: 20px !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+.number_main{
+    text-align: left !important;
+    font-size: 20px !important;
+    color: #ffd763 !important ;
+}
+.Quick_Links{
+    text-align: left !important;
+    color: #b5b4b9 !important;
+    letter-spacing: 1px !important;
+    font-size: 18px !important;
+}
+.Services_header{
+    text-align: left !important;
+    color: white !important;
+    letter-spacing: 1px !important;
+    font-size: 14px !important;
+}
+.Services_header:hover{
+    color: #09aeb8 !important;
+}
+
+.Services_main{
+    display: flex !important;
+    justify-content: space-evenly !important;
+}
+.email_type{
+    text-align: left !important;
+}
+input{ 
+    width: 100% !important;
+    height: 55px !important;
+    letter-spacing: 1px !important;
+    color: #38373c !important;
+    border-width: 0px !important;
+    padding-left: 10px !important;
+}
+.subscribe_button{
+    border-width: 0px !important;
+    width: 180px !important;
+    height: 55px !important;
+    color: black !important;
+    background-color: #ffd763 !important;
+}
+
+.subscribe_button:hover{
+    background-color: #09aeb8 !important;
+    color: white !important;
+}
+
+.button_subscribe{
+    padding-top: 25px !important;
+    text-align: left !important;
+}
+.Footer_last_line{
+    padding-top: 85px !important;
+    /* border-top: 1px solid #a9a7ad; */
+}
+.copyright_main{
+    text-align:justify !important;
+    font-size: 16px !important;
+    color: #b5b4b9 !important;
+  padding-left: 235px !important;
+}
+
+.social_media{
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    padding-right: 250px !important;
+}
+
+.social_twiter{
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    background-color: white !important;
+    
+}
+.social_twiter:hover{
+    background-color: #ffd763 !important;
+}
+
+.social_facebook{
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    background-color: white !important;
+    margin-left: 10px !important;
+}
+.social_facebook:hover{
+    background-color: #ffd763 !important;
+}
+.social_linkedin{
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    background-color: white !important;
+    margin-left: 10px !important;
+}
+.social_linkedin:hover{
+    background-color: #ffd763 !important;
+}
+
+.social_youtube{
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    background-color: white !important;
+    margin-left: 10px !important;
+}
+.social_youtube:hover{
+    background-color: #ffd763 !important;
+}
+.social{
+    border-top: #a9a7ad !important;
+}
+
+.footer_header{
+  border-top: #a9a7ad !important;
+}

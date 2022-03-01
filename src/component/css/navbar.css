@@ -1,0 +1,30 @@
+.book_today{
+    background-color: #f5d974 !important;
+    border-width: 0px !important;
+    width: 180px !important;
+    height: 50px !important;
+}
+
+.layout_header{
+    overflow: hidden !important;
+    z-index: 1 !important;
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+}
+
+.book_today:hover{
+    background-color: #09aeb8 !important ;
+    color: white !important;
+}
+.avakar{
+    color: rgb(2, 2, 2) !important;
+}
+
+.layout_header{
+    background-color: #fff !important;
+}
+/* 
+.layout_header + .contant {
+    padding-top: 60px;
+  } */

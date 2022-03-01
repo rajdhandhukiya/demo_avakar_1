@@ -1,0 +1,21 @@
+.Satisfaction_Guarantee {
+   width: 65px !important;
+   height: 65px !important;
+   margin: 45px !important;
+}
+.hoverable{
+   width: 228px !important; 
+   height: 258px !important;
+   color: white !important;
+   background-color: #09aeb8 !important;
+   transition: 0.30s !important ;
+}
+.hoverable:hover{
+background-color: #ffd763 !important;
+color: black !important;
+transition: 0.30s !important;
+margin-top: -15px !important;
+}
+.card_space{
+   margin-right: -60px ;
+}
