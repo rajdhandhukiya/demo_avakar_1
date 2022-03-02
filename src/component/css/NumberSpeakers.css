@@ -1,159 +1,167 @@
 .Number_main {
-    padding-top: 35px !important;
+  padding-top: 85px !important;
 }
 
 .Numbers_Speakers {
-    text-align: center !important;
-    font-size: 54px !important;
-    color: #38373c !important;
-    font-family: 'Josefin Sans', sans-serif !important;
+  text-align: center !important;
+  font-size: 54px !important;
+  color: #38373c !important;
+  font-family: 'Josefin Sans', sans-serif !important;
 }
 
 .num_span {
-    font-size: 95px !important;
-    color: #09aeb8 !important;
+  font-size: 95px !important;
+  color: #09aeb8 !important;
 }
 
 .num_main {
-    border-right: 1px solid #d8d8d8 !important;
-    margin-right: 24px !important;
+  border-right: 1px solid #d8d8d8 !important;
+  margin-right: 24px !important;
 }
 
 .num_title {
-    font-size: 18px !important;
-    text-align: justify !important;
-    letter-spacing: 0.5px !important;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+  font-size: 18px !important;
+  text-align: justify !important;
+  letter-spacing: 0.5px !important;
+  font-family: 'Josefin Sans', sans-serif !important;
 }
 
 .header_num {
-    padding-top: 25px !important;
+  padding-top: 25px !important;
 }
 
 .image_main {
-    padding-top: 120px !important ;
+  padding-top: 120px !important;
 }
 
 .image_founder {
-    border-radius: 50% !important;
+  border-radius: 50% !important;
 }
 
-.Founder_details {
-    padding-top: 120px !important;
+.founder_main {
+  background-color: #f1f1f1;
+  padding-top: 120px !important;
 }
 
 .evanto {
-    padding: 120px !important
+  padding: 120px !important
 }
 
 .image_para {
-    width: 100% !important
+  width: 100% !important
 }
 
 .text {
-    color: white !important;
-    font-size: 20px !important;
-    letter-spacing: 0.5px !important;
-    font-family: 'Times New Roman', Times, serif !important;
-    position: absolute !important;
-    top: 20% !important;
-    left: 30% !important;
-    -webkit-transform: translate(-50%, -50%) !important;
-    -ms-transform: translate(-50%, -50%) !important;
-    transform: translate(-50%, -50%) !important;
-    text-align: center !important;
+  color: white !important;
+  font-size: 20px !important;
+  letter-spacing: 0.5px !important;
+  font-family: 'Josefin Sans', sans-serif !important;
+  position: absolute !important;
+  top: 20% !important;
+  left: 30% !important;
+  -webkit-transform: translate(-50%, -50%) !important;
+  -ms-transform: translate(-50%, -50%) !important;
+  transform: translate(-50%, -50%) !important;
+  text-align: center !important;
 }
 
 .buttoner {
-    background-color: #f5d974 !important;
-    border-radius: 50% !important;
-    bottom: 20px !important;
-    color: #38373c !important;
-    display: inline-block !important;
-    height: 40px !important;
-    line-height: 45px !important;
-    position: absolute !important;
-    align-items: center !important;
-    right: 20px !important;
-    text-align: center !important;
-    width: 40px !important;
+  background-color: #f5d974 !important;
+  border-radius: 50% !important;
+  bottom: 20px !important;
+  color: #38373c !important;
+  display: inline-block !important;
+  height: 40px !important;
+  line-height: 30px !important;
+  position: absolute !important;
+  /* align-items: center !important; */
+  padding-bottom: 10px !important;
+  right: 20px !important;
+  text-align: center !important;
+  width: 40px !important;
 }
 
 .image_header:hover .overlay {
-    opacity: 1 !important;
-    transform: scale(1) !important;
+  opacity: 1 !important;
+  transform: scale(1) !important;
 }
 
 .overlay {
-    position: absolute !important;
-    top: 0 !important;
-    bottom: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
-    height: 100% !important;
-    width: 100% !important;
-    transform: scale(0.3) !important;
-    opacity: 0 !important;
-    transition: .5s ease !important;
-    background-color: #09aeb8 !important;
+  position: absolute !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  height: 100% !important;
+  width: 100% !important;
+  transform: scale(0.3) !important;
+  opacity: 0 !important;
+  transition: .5s ease !important;
+  background-color: #09aeb8 !important;
 }
 
 @property --num {
-    syntax: "<integer>";
-    initial-value: 0;
-    inherits: false;
-  }
-  
-  .num_span_count {
-    transition: --num 5s;
-    counter-set: num var(--num);
-    
-    font-size: 95px !important;
-    color: #09aeb8 !important;
-  }
-  .num_span_count::after {
-    content: counter(num);
-    font-size: 95px !important;
-    color: #09aeb8 !important;
-  }
-  .num_span_count:hover {
-    --num: 4760;
-    font-size: 95px !important;
-    color: #09aeb8 !important;
-  }
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
 
-  .num_span_count_3 {
-    transition: --num 5s;
-    counter-set: num var(--num);
-    
-    font-size: 95px !important;
-    color: #09aeb8 !important;
-  }
-  .num_span_count_3::after {
-    content: counter(num);
-    font-size: 95px !important;
-    color: #09aeb8 !important;
-  }
-  .num_span_count_3:hover {
-    --num: 8870;
-    font-size: 95px !important;
-    color: #09aeb8 !important;
-  }
+.num_span_count {
+  transition: --num 5s;
+  counter-set: num var(--num);
 
-  .num_span_count_2 {
-    transition: --num 5s;
-    counter-set: num var(--num);
-    
-    font-size: 95px !important;
-    color: #09aeb8 !important;
-  }
-  .num_span_count_2::after {
-    content: counter(num);
-    font-size: 95px !important;
-    color: #09aeb8 !important;
-  }
-  .num_span_count_2:hover {
-    --num: 9032;
-    font-size: 95px !important;
-    color: #09aeb8 !important;
-  }
+  font-size: 95px !important;
+  color: #09aeb8 !important;
+}
+
+.num_span_count::after {
+  content: counter(num);
+  font-size: 95px !important;
+  color: #09aeb8 !important;
+}
+
+.num_span_count:hover {
+  --num: 4760;
+  font-size: 95px !important;
+  color: #09aeb8 !important;
+}
+
+.num_span_count_3 {
+  transition: --num 5s;
+  counter-set: num var(--num);
+
+  font-size: 95px !important;
+  color: #09aeb8 !important;
+}
+
+.num_span_count_3::after {
+  content: counter(num);
+  font-size: 95px !important;
+  color: #09aeb8 !important;
+}
+
+.num_span_count_3:hover {
+  --num: 8870;
+  font-size: 95px !important;
+  color: #09aeb8 !important;
+}
+
+.num_span_count_2 {
+  transition: --num 5s;
+  counter-set: num var(--num);
+
+  font-size: 95px !important;
+  color: #09aeb8 !important;
+}
+
+.num_span_count_2::after {
+  content: counter(num);
+  font-size: 95px !important;
+  color: #09aeb8 !important;
+}
+
+.num_span_count_2:hover {
+  --num: 9032;
+  font-size: 95px !important;
+  color: #09aeb8 !important;
+}

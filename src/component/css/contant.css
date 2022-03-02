@@ -1,12 +1,17 @@
+.contant_main {
+    margin: 0px -95px 0 95px !important;
+    padding-bottom: 85px !important;
+}
+
 .Loazene {
-    padding-top: 25px !important;
-    font-family: sans-serif !important;
+    padding-top: 35px !important;
+    font-family: 'Josefin Sans', sans-serif !important;
     font-size: 20px !important
 }
 
 .Heat_line {
-    padding-top: 25px !important;
-    font-family: sans sarif !important;
+    padding-top: 15px !important;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 30px !important;
     letter-spacing: 2px !important
 }
@@ -14,17 +19,20 @@
 .available_line {
     padding-top: 25px !important;
     font-size: 18px !important;
-     color: #87868a !important;
-     letter-spacing: 0.5px  !important 
+    font-family: 'Josefin Sans', sans-serif !important;
+    color: #87868a !important;
+    letter-spacing: 0.5px !important
 }
-.Learn_more{
+
+.Learn_more {
     width: 174px !important;
     height: 65px !important;
-     background-color: #ffd763 !important;
-     color: black !important;
-     border-width: 0px !important
+    background-color: #ffd763 !important;
+    color: black !important;
+    border-width: 0px !important
 }
-.Learn_more:hover{
-        background-color: #09aeb8 !important;
-        color: white !important;
+
+.Learn_more:hover {
+    background-color: #09aeb8 !important;
+    color: white !important;
 }

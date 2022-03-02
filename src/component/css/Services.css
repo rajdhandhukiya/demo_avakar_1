@@ -1,5 +1,12 @@
 .Services_Box {
-    padding-top: 120px !important;
+    padding-top: 85px !important;
+    background-color: #f4f4f4;
+}
+
+.service_header {
+    width: 370px !important;
+    height: 550px !important;
+    margin-right: 64px !important;
 }
 
 .Services_Head {
@@ -7,6 +14,10 @@
     font-size: 54px !important;
     color: #38373c !important;
     font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.service_image {
+    padding: 10px;
 }
 
 .Service_Data {
@@ -19,25 +30,29 @@
     margin-left: 28px !important;
 }
 
+.overtimes_main {
+    margin: 0 -250px;
+}
+
 .paragraph_Title {
     font-size: 16px !important;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    font-family: 'Josefin Sans', sans-serif !important;
     color: #38373c !important;
     letter-spacing: 0.5px !important;
 }
 
 .button_learn {
     width: 100% !important;
-    height: 50px !important ;
+    height: 50px !important;
     background-color: #ffd763 !important;
 }
-  
+
 .buttonic {
     padding-top: 1px !important;
 }
 
 .overtimes {
-    padding: 120px 0px !important
+    padding: 120px 0px 0px 0px !important
 }
 
 .overtime_days {
@@ -46,16 +61,11 @@
     padding-bottom: 85px !important;
     /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
-.snow_img{
+
+.snow_img {
     width: 25px !important;
     height: 25px !important;
-
 }
-/* .services_main:hover{
-    background-color: #38373c;
-    color: white;
-} */
-
 
 .quote_free {
     width: 178px !important;
@@ -64,19 +74,20 @@
     color: white !important;
     border-width: 0px !important;
 }
-.quote_free:hover{
-    background-color: #09aeb8 !important; 
+
+.quote_free:hover {
+    background-color: #09aeb8 !important;
     color: white !important;
 }
 
-.charges{
-    padding-left: 86px !important;
+.charges {
+    padding-left: 245px !important;
     font-size: 40px !important;
+    font-family: 'Josefin Sans', sans-serif !important;
 }
 
-.overtime_days2{
-    padding-top: 105px !important;
+.overtime_days2 {
+    padding: 105px 30px !important;
     background-color: #ffd763 !important;
-    padding-bottom: 105px !important;
 
 }
